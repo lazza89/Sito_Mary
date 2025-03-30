@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contatta la Dott.ssa Maria Rossi, psicologa a [Città]. Prenota una consulenza psicologica o richiedi informazioni sui servizi offerti."
+    />
+    <meta
+      name="keywords"
+      content="contatti psicologa, appuntamento psicologo, consulenza psicologica, psicologa [città], prenotazione seduta"
+    />
+    <title>Contatti | Dott.ssa Maria Rossi - Psicologa a [Città]</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header placeholder - verrà sostituito con JavaScript -->
+    <div class="header-placeholder"></div>
+
+    <main>
+      <!-- Page Banner -->
+      <section class="page-banner">
+        <div class="container">
+          <h1>Contattami</h1>
+          <p>Prenota una consulenza o richiedi informazioni</p>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact-grid">
+            <!-- Contact Information -->
+            <div class="contact-info">
+              <h2>Informazioni di Contatto</h2>
+              <div class="contact-details">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h3>Studio</h3>
+                    <p>Via Roma 123<br />[Città], CAP 00000</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h3>Telefono</h3>
+                    <p>123 456 7890</p>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                  </div>
+                  <div class="contact-text">
+                    <h3>Email</h3>
+                    <p>info@mariarossipsicologa.it</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-hours">
+                <h3>Orari di Ricevimento</h3>
+                <ul class="hours-list">
+                  <li>
+                    <span>Lunedì - Venerdì</span>
+                    <span>9:00 - 19:00</span>
+                  </li>
+                  <li>
+                    <span>Sabato</span>
+                    <span>Su appuntamento</span>
+                  </li>
+                  <li>
+                    <span>Domenica</span>
+                    <span>Chiuso</span>
+                  </li>
+                </ul>
+              </div>
+
+              <p class="contact-note">
+                Le consulenze sono disponibili sia in studio che online. Ti
+                risponderò entro 24 ore lavorative.
+              </p>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+              <h2>Richiedi Informazioni</h2>
+              <form id="contact-form" action="#" method="POST">
+                <div class="form-group">
+                  <label for="name">Nome e Cognome *</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="service">Tipo di Servizio *</label>
+                  <select id="service" name="service" required>
+                    <option value="">Seleziona un servizio</option>
+                    <option value="terapia-individuale">
+                      Terapia Individuale
+                    </option>
+                    <option value="terapia-coppia">Terapia di Coppia</option>
+                    <option value="supporto-adolescenti">
+                      Supporto per Adolescenti
+                    </option>
+                    <option value="consulenza-online">Consulenza Online</option>
+                    <option value="informazioni">
+                      Richiesta Informazioni Generali
+                    </option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="message">Il Tuo Messaggio *</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Descrivi brevemente il motivo per cui desideri contattarmi..."
+                    required
+                  ></textarea>
+                </div>
+
+                <div class="checkbox-group">
+                  <input type="checkbox" id="privacy" name="privacy" required />
+                  <label for="privacy"
+                    >Ho letto e accetto la
+                    <a href="privacy.html">Privacy Policy</a> *</label
+                  >
+                </div>
+
+                <button type="submit" class="cta-button">
+                  Invia Richiesta
+                </button>
+
+                <p class="form-note">* Campi obbligatori</p>
+              </form>
+            </div>
+          </div>
+
+          <!-- Map Section -->
+          <div class="map">
+            <!-- Sostituire con un iframe di Google Maps dello studio quando disponibile -->
+            <img
+              src="img/map-placeholder.jpg"
+              alt="Mappa dello studio"
+              width="1200"
+              height="400"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq">
+        <div class="container">
+          <h2>Domande Frequenti sul Contatto</h2>
+          <div class="faq-grid">
+            <div class="faq-item">
+              <h3>Quanto tempo passerà prima di ricevere una risposta?</h3>
+              <p>
+                Rispondo generalmente entro 24 ore lavorative dalla ricezione
+                del messaggio. In periodi particolarmente intensi, potrebbe
+                essere necessario un tempo leggermente maggiore.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>
+                Posso prenotare direttamente una seduta con questo modulo?
+              </h3>
+              <p>
+                Questo modulo serve principalmente per un primo contatto. Dopo
+                aver ricevuto la tua richiesta, ti contatterò per approfondire
+                le tue esigenze e concordare un appuntamento.
+              </p>
+            </div>
+            <div class="faq-item">
+              <h3>I miei dati saranno trattati con riservatezza?</h3>
+              <p>
+                Assolutamente sì. Tutti i dati che mi invii attraverso questo
+                modulo sono protetti e trattati nel pieno rispetto della
+                normativa sulla privacy (GDPR). Non saranno mai condivisi con
+                terze parti.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta">
+        <div class="container">
+          <h2>Preferisci parlare direttamente?</h2>
+          <p>
+            Chiamami al numero 123 456 7890 durante gli orari di ricevimento
+          </p>
+          <a href="tel:1234567890" class="cta-button">Chiama Ora</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer placeholder - verrà sostituito con JavaScript -->
+    <div class="footer-placeholder"></div>
+
+    <!-- Script -->
+    <script src="js/header-footer.js" defer></script>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
